@@ -1,0 +1,114 @@
+ul {
+	list-style: none;
+	margin: 0 !important;
+	padding: 0;
+}
+
+label {
+	font-family: 'Mrs Eaves OT Bold', serif;
+	font-weight: bold;
+	font-size: 16px
+}
+.select-region-box {
+	z-index: 1;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	display: block;
+	font-family: AvenirLT-Medium, sans-serif;
+	background: #0D394E;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	color: #B4A365;
+	min-width: 250px;
+	height: auto;
+	cursor: pointer;
+	border: 2px solid #f5f3eb;
+	outline: #0D394E solid 1px;
+	font-size: 16px;
+	font-size: 1rem;
+	text-align: center;
+	box-shadow: 0 3px 5px rgba(26,26,25,.25)
+}
+.select-region-box li .checkbox-dropdown {
+	width: 200px;
+	cursor: pointer;
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+.select-region-box .checkbox-dropdown span {
+	padding: 15px;
+	display: block
+}
+.select-region-box .checkbox-dropdown:after {
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 6px solid transparent;
+	border-top-color: #000;
+	top: 50%;
+	right: 10px;
+	margin-top: -3px
+}
+.select-region-box li .checkbox-dropdown.is-active:after {
+	border-bottom-color: #000;
+	border-top-color: #fff;
+	margin-top: -9px
+}
+.select-region-box li .checkbox-dropdown-list {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 1px solid #0D394E;
+	background-color: #fbf9f0;
+	opacity: 0;
+	display: none;
+	-webkit-transition: opacity .4s ease-in-out;
+	transition: opacity .4s ease-in-out;
+	pointer-events: none
+}
+.select-region-box li .checkbox-dropdown-list li {
+	position: relative;
+	clear: both
+}
+.select-region-box li .checkbox-dropdown-list li:after {
+	width: 12px;
+	height: 12px;
+	display: block;
+	margin: 5px auto
+}
+.select-region-box li .checkbox-dropdown-list li:last-child:after {
+	content: '';
+	display: none
+}
+.select-region-box .is-active .checkbox-dropdown-list {
+	opacity: 1;
+	pointer-events: auto;
+	display: block
+}
+.select-region-box li .checkbox-dropdown-list li label {
+	display: block;
+	margin: 0;
+	padding: 15px;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	color: #0D394E;
+	cursor: pointer
+}
+.select-region-box li .checkbox-dropdown-list li label input {
+	margin-left: -11px;
+	margin-right: 7px;
+	display: none
+}
+.select-region-box li .checkbox-dropdown-list li label:hover {
+	color: #B4A365
+}

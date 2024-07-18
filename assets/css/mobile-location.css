@@ -1,0 +1,129 @@
+.mobile_location_wrap {
+	width: 100%;
+	background-color: #efede7
+}
+.mobile_location_wrap .location_block {
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 75px;
+	min-width: 320px;
+	max-width: 100%;
+	border-right: 2px solid #B4A365;
+	border-bottom: 2px solid #B4A365;
+	margin: 0 auto 2px
+}
+.mobile_location_wrap .region_block {
+	display: block;
+	position: relative;
+	height: 40px;
+	min-width: 320px;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #003a53;
+	z-index: 1;
+	border-bottom: 2px solid #B4A365
+}
+.mobile_location_wrap .region_block i {
+	color: #B4A365;
+	z-index: 5;
+	position: absolute;
+	display: block;
+	right: 14px;
+	font-size: 24px;
+	bottom: 8px
+}
+.mobile_location_wrap .region_block select {
+	display: block;
+	position: relative;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	color: #B4A365;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	font-weight: 800;
+	border-radius: 0;
+	padding-top: 5px;
+	padding-left: 80px;
+	z-index: 10;
+	text-transform: uppercase
+}
+.mobile_location_wrap .location_block .info_wrap {
+	width: 174px;
+	display: block;
+	padding-left: 10px;
+	position: relative;
+	flex: 1 1 auto
+}
+@media screen and (max-width: 400px) {
+	.mobile_location_wrap .location_block .info_wrap .location_address {
+		width: 140px !important;
+		line-height: 9.6px
+	}
+}
+.mobile_location_wrap .location_block .location_city {
+	font-size: 15px;
+	color: #877a4f;
+	font-family: AvenirLT-Book, sans-serif;
+	padding-bottom: 5px;
+	float: left;
+}
+.mobile_location_wrap .location_block .location_address {
+	font-size: 13px;
+	color: #877a4f;
+	font-family: MrsEavesXLSerif, serif;
+	float: left;
+	clear: left;
+}
+.mobile_location_wrap .geo_phone {
+	border-radius: 50%;
+	background-color: #B4A365;
+	height: 38px;
+	width: 38px;
+	display: block;
+	position: relative;
+	margin: 15px 10px 15px auto;
+}
+.mobile_location_wrap .geo_phone i {
+	font-size: 20px;
+	color: #efede7
+}
+.mobile_location_wrap .geo_phone .phone {
+	height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_location_wrap .geo_phone .geo {
+	height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}	
+.mobile_location_wrap .next_button {
+	height: 75px;
+	width: 38px;
+	background-color: #B4A365;
+	display: block;
+	position: relative
+}
+.mobile_location_wrap .next_button i {
+	display: block;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin: 0 auto;
+	padding-left: 14px;
+	color: #efede7
+}
