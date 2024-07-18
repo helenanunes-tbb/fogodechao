@@ -41,7 +41,7 @@ get_header();
     <!-- {/literal} END JIVOSITE CODE -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/libs/lightcase/src/css/lightcase.css" type="text/css" />
     <section id="section1">
-        <video poster="http://www.fogodechao.com.br/wp-content/uploads/2019/03/FogoMainHeader-Fallback.jpg" id="bgvid" autoplay loop muted>
+        <video poster="https://www.fogodechao.com.br/wp-content/uploads/2019/03/FogoMainHeader-Fallback.jpg" id="bgvid" autoplay loop muted>
             <source src="https://fogodechao.com/fogo_brand_video.webm" type="video/webm">
             <source src="https://fogodechao.com/FogoHeaderVideo.mp4" type="video/mp4">
             <source src="https://fogodechao.com/fogo_brand_video.ogg" type="video/ogg">

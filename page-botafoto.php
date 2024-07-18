@@ -34,7 +34,7 @@ $scripts = [];
         <!-- <br>
         <b>Notice</b>:  Undefined variable: subtitulo in <b>/home/storage/f/0a/49/fogodechaoprofis1/public_html/wp-content/themes/fogodechao/page-header-location.php</b> on line <b>6</b><br> -->
         <p class="page-descricao">
-            Av. Repórter Nestor Moreira, s/n – Botafogo, 22290-210&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="http://maps.google.com?saddr=Current+Location&amp;daddr=-22.949449,-43.178785&amp;ll="><i class="fa fa-compass"></i></a>            
+            Av. Repórter Nestor Moreira, s/n – Botafogo, 22290-210&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="https://maps.google.com?saddr=Current+Location&amp;daddr=-22.949449,-43.178785&amp;ll="><i class="fa fa-compass"></i></a>            
         </p>
     </article>
 </header>

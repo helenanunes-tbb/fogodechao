@@ -1,6 +1,6 @@
 /*!
  * Time picker for pickadate.js v3.5.6
- * http://amsul.github.io/pickadate.js/time.htm
+ * https://amsul.github.io/pickadate.js/time.htm
  */
 
 (function ( factory ) {

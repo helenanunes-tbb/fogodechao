@@ -22,7 +22,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php bloginfo('template_directory'); ?>/assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/app.css">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/main.css">
@@ -82,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://instagram.com.br/fogodechaobr" target="_blank">
+                        <a class="nav-link" href="https://www.instagram.com/fogodechaobr" target="_blank">
                             <i class="fa fa-instagram"></i>
                         </a>
                     </li>
@@ -183,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://instagram.com.br/fogodechaobr" target="_blank">
+                            <a class="nav-link" href="https://www.instagram.com/fogodechaobr" target="_blank">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>

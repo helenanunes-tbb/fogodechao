@@ -1,10 +1,10 @@
 /*
 * jQuery Mobile v1.5.0-alpha.1
-* http://jquerymobile.com
+* https://jquerymobile.com
 *
 * Copyright jQuery Foundation, Inc. and other contributors
 * Released under the MIT license.
-* http://jquery.org/license
+* https://jquery.org/license
 *
 */
 
@@ -21,11 +21,11 @@
 	}
 }( this, document, function ( jQuery, window, document, undefined ) {/*!
  * jQuery Mobile Namespace @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Namespace
@@ -51,11 +51,11 @@ return $.mobile;
 
 /*!
  * jQuery Mobile Defaults @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Defaults
@@ -134,11 +134,11 @@ return $.extend( $.mobile, {
 
 /*!
  * jQuery Mobile Data @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: jqmData
@@ -210,7 +210,7 @@ $.extend( $.mobile, {
 	},
 
 	// Find the closest javascript page element to gather settings data jsperf test
-	// http://jsperf.com/single-complex-selector-vs-many-complex-selectors/edit
+	// https://jsperf.com/single-complex-selector-vs-many-complex-selectors/edit
 	// possibly naive, but it shows that the parsing overhead for *just* the page selector vs
 	// the page and dialog selector is negligable. This could probably be speed up by
 	// doing a similar parent node traversal to the one found in the inherited theme code above
@@ -291,17 +291,17 @@ return $.ui.version = "1.12.1";
 
 /*!
  * jQuery UI Keycode 1.12.1
- * http://jqueryui.com
+ * https://jqueryui.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Keycode
 //>>group: Core
 //>>description: Provide keycodes as keynames
-//>>docs: http://api.jqueryui.com/jQuery.ui.keyCode/
+//>>docs: https://api.jqueryui.com/jQuery.ui.keyCode/
 
 ( function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -337,11 +337,11 @@ return $.ui.keyCode = {
 
 /*!
  * jQuery Mobile Helpers @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Helpers
@@ -648,11 +648,11 @@ return $.mobile;
 
 /*!
  * jQuery Mobile Core @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>group: exclude
@@ -674,11 +674,11 @@ return $.mobile;
 
 /*!
  * jQuery Mobile Match Media Polyfill @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Match Media Polyfill
@@ -744,11 +744,11 @@ return $.mobile.media;
 
 /*!
  * jQuery Mobile Touch Support Test @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Touch support test
@@ -782,11 +782,11 @@ return $.support;
 
 /*!
  * jQuery Mobile Orientation @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Orientation support test
@@ -815,11 +815,11 @@ return $.support;
 
 /*!
  * jQuery Mobile Support Tests @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>description: Assorted tests to qualify browsers by detecting features
@@ -868,7 +868,7 @@ var bb = window.blackberry && !propExists( "-webkit-transform" ); //only used to
 function inlineSVG() {
 	// Thanks Modernizr & Erik Dahlstrom
 	var w = window,
-		svg = !!w.document.createElementNS && !!w.document.createElementNS( "http://www.w3.org/2000/svg", "svg" ).createSVGRect && !( w.opera && navigator.userAgent.indexOf( "Chrome" ) === -1 ),
+		svg = !!w.document.createElementNS && !!w.document.createElementNS( "https://www.w3.org/2000/svg", "svg" ).createSVGRect && !( w.opera && navigator.userAgent.indexOf( "Chrome" ) === -1 ),
 		support = function( data ) {
 			if ( !( data && svg ) ) {
 				$( "html" ).addClass( "ui-nosvg" );
@@ -938,7 +938,7 @@ function boundingRect() {
 	return typeof div.getBoundingClientRect !== "undefined";
 }
 
-// non-UA-based IE version check by James Padolsey, modified by jdalton - from http://gist.github.com/527683
+// non-UA-based IE version check by James Padolsey, modified by jdalton - from https://gist.github.com/527683
 // allows for inclusion of IE 6+, including Windows Mobile 7
 $.extend( $.mobile, { browser: {} } );
 $.mobile.browser.oldIE = ( function() {
@@ -1070,18 +1070,18 @@ return $.support;
 
 /*!
  * jQuery Mobile Navigate Event @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Navigate
 //>>group: Events
 //>>description: Provides a wrapper around hashchange and popstate
-//>>docs: http://api.jquerymobile.com/navigate/
-//>>demos: http://api.jquerymobile.com/@VERSION/navigation/
+//>>docs: https://api.jquerymobile.com/navigate/
+//>>demos: https://api.jquerymobile.com/@VERSION/navigation/
 
 // TODO break out pushstate support test so we don't depend on the whole thing
 ( function( factory ) {
@@ -1222,17 +1222,17 @@ return $.event.special.navigate;
 
 /*!
  * jQuery Mobile Virtual Mouse @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Virtual Mouse (vmouse) Bindings
 //>>group: Core
 //>>description: Normalizes touch/mouse events.
-//>>docs: http://api.jquerymobile.com/?s=vmouse
+//>>docs: https://api.jquerymobile.com/?s=vmouse
 
 // This plugin is an experiment for abstracting away the touch and mouse
 // events so that developers don't have to worry about which method of input
@@ -1776,11 +1776,11 @@ if ( eventCaptureSupported ) {
 
 /*!
  * jQuery Mobile Touch Events @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Touch
@@ -2090,11 +2090,11 @@ return $.event.special;
 
 /*!
  * jQuery Mobile Scroll Events @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Scroll
@@ -2192,17 +2192,17 @@ return $.event.special;
 
 /*!
  * jQuery Mobile Throttled Resize @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Throttled Resize
 //>>group: Events
 //>>description: Fires a resize event with a slight delay to prevent excessive callback invocation
-//>>docs: http://api.jquerymobile.com/throttledresize/
+//>>docs: https://api.jquerymobile.com/throttledresize/
 
 ( function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -2256,17 +2256,17 @@ return $.event.special.throttledresize;
 
 /*!
  * jQuery Mobile Orientation Change Event @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Orientation Change
 //>>group: Events
 //>>description: Provides a wrapper around the inconsistent browser implementations of orientationchange
-//>>docs: http://api.jquerymobile.com/orientationchange/
+//>>docs: https://api.jquerymobile.com/orientationchange/
 
 ( function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -2427,11 +2427,11 @@ return $.event.special;
 
 /*!
  * jQuery Mobile Events @VERSION
- * http://jquerymobile.com
+ * https://jquerymobile.com
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  */
 
 //>>label: Events

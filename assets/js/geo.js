@@ -103,7 +103,7 @@ $(document).ready(function() {
                 $('.btn-group.desktop .more-details').attr("href", "/location/" + restaurants[0].city.toLowerCase());
             }
             if($('.locations-page-header.mobile .locations-mobile .direction_icon').length > 0) {
-                $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
             }
             if($('.locations-mobile .address_wrap .city_title').length > 0) {
                 $('.address_wrap .city_title').html("<span>" + restaurants[0].city + ", " + restaurants[0].state + "</span>");
@@ -124,7 +124,7 @@ $(document).ready(function() {
                 $('.menu-page-target-href').attr("href", "/location/" + restaurants[0].city.toLowerCase() + "/#pricing");
             }
             if($('.locations-map-directions').length > 0) {
-                $('.locations-map-directions').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                $('.locations-map-directions').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
             }
         }
 			
@@ -210,7 +210,7 @@ $(document).ready(function() {
                         $('.btn-group.desktop .more-details').attr("href", "/location/" + restaurants[0].city.toLowerCase());
                     }
                     if($('.locations-page-header.mobile .locations-mobile .direction_icon').length > 0) {
-                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
                     if($('.locations-mobile .address_wrap .city_title').length > 0) {
                         $('.address_wrap .city_title').html("<span>" + restaurants[0].city + ", " + restaurants[0].state + "</span>");
@@ -231,7 +231,7 @@ $(document).ready(function() {
                         $('.menu-page-target-href').attr("href", "/location/" + restaurants[0].city.toLowerCase() + "/#pricing");
                     }
                     if($('.locations-map-directions').length > 0) {
-                        $('.locations-map-directions').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-map-directions').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
                 }//console.log(restaurants)
 				 
@@ -301,7 +301,7 @@ $(document).ready(function() {
                         $('.btn-group.desktop .more-details').attr("href", "/location/" + restaurants[0].city.toLowerCase());
                     }
                     if($('.locations-page-header.mobile .locations-mobile .direction_icon').length > 0) {
-                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
                     if($('.locations-mobile .address_wrap .city_title').length > 0) {
                         $('.address_wrap .city_title').html("<span>" + restaurants[0].city + ", " + restaurants[0].state + "</span>");
@@ -322,7 +322,7 @@ $(document).ready(function() {
                         $('.menu-page-target-href').attr("href", "/location/" + restaurants[0].city.toLowerCase() + "/#pricing");
                     }
                     if($('.locations-map-directions').length > 0) {
-                        $('.locations-map-directions').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-map-directions').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
             },
             {
@@ -403,7 +403,7 @@ setTimeout(function () {
                         $('.btn-group.desktop .more-details').attr("href", "/location/" + restaurants[0].city.toLowerCase());
                     }
                     if($('.locations-page-header.mobile .locations-mobile .direction_icon').length > 0) {
-                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-page-header.mobile .locations-mobile .direction_icon').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
                     if($('.locations-mobile .address_wrap .city_title').length > 0) {
                         $('.address_wrap .city_title').html("<span>" + restaurants[0].city + ", " + restaurants[0].state + "</span>");
@@ -424,7 +424,7 @@ setTimeout(function () {
                         $('.menu-page-target-href').attr("href", "/location/" + restaurants[0].city.toLowerCase() + "/#pricing");
                     }
                     if($('.locations-map-directions').length > 0) {
-                        $('.locations-map-directions').attr("href", "http://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
+                        $('.locations-map-directions').attr("href", "https://maps.google.com?daddr=" + restaurants[0].lat + "," + restaurants[0].lng + "&amp;ll=");
                     }
             
     }

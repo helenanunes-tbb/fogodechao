@@ -10,7 +10,7 @@ The mobile-friendly, responsive, and lightweight jQuery date & time input picker
 
 #### To get started, check out the:
 
-[Homepage](http://amsul.ca/pickadate.js) - [Date picker](http://amsul.ca/pickadate.js/date) - [Time picker](http://amsul.ca/pickadate.js/time) - [API](http://amsul.ca/pickadate.js/api)
+[Homepage](https://amsul.ca/pickadate.js) - [Date picker](https://amsul.ca/pickadate.js/date) - [Time picker](https://amsul.ca/pickadate.js/time) - [API](https://amsul.ca/pickadate.js/api)
 
 
 #### To get it:
@@ -84,7 +84,7 @@ The translations live in the `lib/translations` folder. There are currently [43 
 
 ## Building with Grunt
 
-[Grunt](http://gruntjs.com/) `~0.4.5` is used to build the project files. To get started, clone the project and then run:
+[Grunt](https://gruntjs.com/) `~0.4.5` is used to build the project files. To get started, clone the project and then run:
 
 - `npm install` to get the required node modules.
 - `grunt test --verbose` to confirm you have all the dependencies.
@@ -104,7 +104,7 @@ Type out `grunt --help` to see a list of all the tasks available. The generally 
 <a name="less-styling"></a>
 ## Styling with LESS
 
-The picker themes are built using [LESS](http://lesscss.org/) with Grunt. To customize the CSS output, read the `_variables.less` file in the `lib/themes-source` folder. You can specify:
+The picker themes are built using [LESS](https://lesscss.org/) with Grunt. To customize the CSS output, read the `_variables.less` file in the `lib/themes-source` folder. You can specify:
 
 - colors for the theme,
 - sizes for the picker,
@@ -146,7 +146,7 @@ If there’s anything you’d like to discuss, we like to hang out on Gitter.
 
 ## Support
 
-If you find this library useful and would like to see further development, consider [supporting it](http://selz.co/1g80kCZ).
+If you find this library useful and would like to see further development, consider [supporting it](https://selz.co/1g80kCZ).
 
 
 
@@ -156,6 +156,6 @@ If you find this library useful and would like to see further development, consi
 
 ---
 
-© 2014 [Amsul](http://twitter.com/amsul_)
+© 2014 [Amsul](https://twitter.com/amsul_)
 
-Licensed under [MIT](http://amsul.ca/MIT)
+Licensed under [MIT](https://amsul.ca/MIT)

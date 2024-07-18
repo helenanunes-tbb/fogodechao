@@ -26,9 +26,9 @@
   "authors": {
     "name": "Amsul",
     "email": "reach@amsul.ca",
-    "homepage": "http://amsul.ca"
+    "homepage": "https://amsul.ca"
   },
-  "homepage": "http://amsul.ca/pickadate.js",
+  "homepage": "https://amsul.ca/pickadate.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/amsul/pickadate.js.git"

@@ -35,7 +35,7 @@ $scripts = [];
         <!-- <br>
         <b>Notice</b>:  Undefined variable: subtitulo in <b>/home/storage/f/0a/49/fogodechaoprofis1/public_html/wp-content/themes/fogodechao/page-header-location.php</b> on line <b>6</b><br> -->
         <p class="page-descricao">
-        ST DE CLUBES ESPORTIVOS SUL TRECHO 2 - Numero: 2/11 - ASA SUL |<br> <a href="tel:(61) 3322 4666"> (61) 3322 4666 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="http://maps.google.com?saddr=Current+Location&amp;daddr=-15.819597036933319, -47.86767526095192&amp;ll="><i class="fa fa-compass"></i></a>            
+        ST DE CLUBES ESPORTIVOS SUL TRECHO 2 - Numero: 2/11 - ASA SUL |<br> <a href="tel:(61) 3322 4666"> (61) 3322 4666 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="https://maps.google.com?saddr=Current+Location&amp;daddr=-15.819597036933319, -47.86767526095192&amp;ll="><i class="fa fa-compass"></i></a>            
         </p>
     </article>
 </header>

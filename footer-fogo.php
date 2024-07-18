@@ -66,7 +66,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="http://instagram.com.br/fogodechaobr" target="_blank">
+							<a href="https://www.instagram.com/fogodechaobr" target="_blank">
 								<span class="fa fa-instagram"></span>
 							</a>
 						</li>

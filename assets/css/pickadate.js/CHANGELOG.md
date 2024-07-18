@@ -33,7 +33,7 @@
 - [#519](https://github.com/amsul/pickadate.js/issues/519): Fixed IE8 error of picker in `iframe`.
 - [#523](https://github.com/amsul/pickadate.js/issues/523): Fixed iOS8 bug of picker not opening in view.
 - Fixed bug where it was possible to unbind internal bindings.
-- [#420](https://github.com/amsul/pickadate.js/issues/420): [Updated docs](http://amsul.github.io/pickadate.js/api.htm#method-trigger) the `trigger` method’s ability to pass data to event callbacks.
+- [#420](https://github.com/amsul/pickadate.js/issues/420): [Updated docs](https://amsul.github.io/pickadate.js/api.htm#method-trigger) the `trigger` method’s ability to pass data to event callbacks.
 - [#562](https://github.com/amsul/pickadate.js/issues/562): Fixed hidden `input` to move into `container` when option is used.
 - [#581](https://github.com/amsul/pickadate.js/issues/581): Added ARIA label for dates and times.
 - [#575](https://github.com/amsul/pickadate.js/issues/575): Removed the Sizzle dependency.
@@ -59,13 +59,13 @@
 - [#358](https://github.com/amsul/pickadate.js/issues/358): Fixed parsing months as 1-indexed when value is a string.
 - [#360](https://github.com/amsul/pickadate.js/issues/360): Improved Grunt script to build a cleaner project.
 - [#361](https://github.com/amsul/pickadate.js/issues/361): Fixed alternate API syntax not returning the correct value.
-- [#367](https://github.com/amsul/pickadate.js/issues/367): [Added a note](http://amsul.github.io/pickadate.js/date.htm#formatting-rules) on how to appropriately use the `yy` format.
+- [#367](https://github.com/amsul/pickadate.js/issues/367): [Added a note](https://amsul.github.io/pickadate.js/date.htm#formatting-rules) on how to appropriately use the `yy` format.
 - [#369](https://github.com/amsul/pickadate.js/issues/369): Added Nepali translations.
-- [#377](https://github.com/amsul/pickadate.js/issues/377): Added the [`hiddenName` option](http://amsul.github.io/pickadate.js/date.htm#formats_use_hidden_only) to use the visible `input`’s name as the hidden `input`’s name.
+- [#377](https://github.com/amsul/pickadate.js/issues/377): Added the [`hiddenName` option](https://amsul.github.io/pickadate.js/date.htm#formats_use_hidden_only) to use the visible `input`’s name as the hidden `input`’s name.
 - [#381](https://github.com/amsul/pickadate.js/issues/381): Added missing semi-colon to `legacy.js`.
 - [#384](https://github.com/amsul/pickadate.js/issues/384): Year selector appears *before* the month selector.
 - [#387](https://github.com/amsul/pickadate.js/issues/387): Fixed issue where the `clear` method did not reset the `select` value to `null`.
-- [#395](https://github.com/amsul/pickadate.js/issues/395): [Added a note](http://amsul.github.io/pickadate.js/api.htm#method-open-close) on how to use a separate button to open/close the picker.
+- [#395](https://github.com/amsul/pickadate.js/issues/395): [Added a note](https://amsul.github.io/pickadate.js/api.htm#method-open-close) on how to use a separate button to open/close the picker.
 
 ## 3.4.0
 
@@ -81,12 +81,12 @@
 - Improved time picker setting a time relative to “now”.
 - Improved disabling/enabling dates and times.
 - Spanish translations typo fixed.
-- Added [the `off` method](http://amsul.github.io/pickadate.js/api.htm#method-off).
+- Added [the `off` method](https://amsul.github.io/pickadate.js/api.htm#method-off).
 - Added Galician translations.
 - Added Slovenian translations.
 - Added Icelandic translations.
-- Added option to disable [dates](http://amsul.github.io/pickadate.js/date.htm#disable-dates-use-ranges) & [times](http://amsul.github.io/pickadate.js/time.htm#disable-times-use-ranges) within a range.
-- Added option to set the [`select`](http://amsul.github.io/pickadate.js/api.htm#method-set-select-date), [`highlight`](http://amsul.github.io/pickadate.js/api.htm#method-set-highlight-date), and [`view`](http://amsul.github.io/pickadate.js/api.htm#method-set-view-date) using a string and parsing format.
+- Added option to disable [dates](https://amsul.github.io/pickadate.js/date.htm#disable-dates-use-ranges) & [times](https://amsul.github.io/pickadate.js/time.htm#disable-times-use-ranges) within a range.
+- Added option to set the [`select`](https://amsul.github.io/pickadate.js/api.htm#method-set-select-date), [`highlight`](https://amsul.github.io/pickadate.js/api.htm#method-set-highlight-date), and [`view`](https://amsul.github.io/pickadate.js/api.htm#method-set-view-date) using a string and parsing format.
 - Added some performance improvents.
 - Added more tests and documentation.
 - Fixed `picker.get('select')` when there’s no value.
@@ -108,11 +108,11 @@
 - [#249](https://github.com/amsul/pickadate.js/issues/249) & [#120](https://github.com/amsul/pickadate.js/issues/120): Fixed jQuery Mobile and MagnificPopup click issues.
 - [#247](https://github.com/amsul/pickadate.js/issues/247): Fixed setting min limit on time picker.
 - [#278](https://github.com/amsul/pickadate.js/issues/278) & [#285](https://github.com/amsul/pickadate.js/issues/285): Fixed Firefox and IE bug for finding `activeElement`.
-- [#279](https://github.com/amsul/pickadate.js/issues/279): Added option to `set` things with [muted callbacks](http://amsul.github.io/pickadate.js/pickadate.js/api.htm#muted-callbacks).
+- [#279](https://github.com/amsul/pickadate.js/issues/279): Added option to `set` things with [muted callbacks](https://amsul.github.io/pickadate.js/pickadate.js/api.htm#muted-callbacks).
 - Fixed French translations capitalization.
 - Fixed time picker scrolling.
-- Added setting a [time using a native JavaScript date objects](http://amsul.github.io/pickadate.js/api.htm#method-set-select-time).
-- Added option to keep an [editable `input`](http://amsul.github.io/pickadate.js/date.htm#editable) element.
+- Added setting a [time using a native JavaScript date objects](https://amsul.github.io/pickadate.js/api.htm#method-set-select-time).
+- Added option to keep an [editable `input`](https://amsul.github.io/pickadate.js/date.htm#editable) element.
 
 
 ## 3.3.0
@@ -150,7 +150,7 @@
 ## 3.2.0
 
 - [#178](https://github.com/amsul/pickadate.js/issues/178): Fix for flicker on iOS while changing months.
-- Added `render(true)` option to render full picker or just the “face” ([read more](http://amsul.github.io/pickadate.js/api.htm#method-render)).
+- Added `render(true)` option to render full picker or just the “face” ([read more](https://amsul.github.io/pickadate.js/api.htm#method-render)).
 
 ## 3.1.4
 
@@ -207,7 +207,7 @@
 
 With this major release, the entire API has been rethought to allow the picker to be much more configurable and extensible. These are the most notable updates:
 
-- [#20](https://github.com/amsul/pickadate.js/issues/20): Introduced a new [time picker](http://amsul.github.io/pickadate.js/time.htm).
+- [#20](https://github.com/amsul/pickadate.js/issues/20): Introduced a new [time picker](https://amsul.github.io/pickadate.js/time.htm).
 - [#112](https://github.com/amsul/pickadate.js/issues/112): Firefox select month/year fix.
 - [#84](https://github.com/amsul/pickadate.js/issues/84): Scrollbar not hidden to avoid page shift.
 - [#89](https://github.com/amsul/pickadate.js/issues/89): Better event handling on clicks/focuses/keydowns within the holder.
@@ -264,13 +264,13 @@ To enable all this goodness, some **backward-incompatible changes** have been in
 	```
 	To add labels for the month navigation tabs, use CSS pseudo-elements instead.
 
-- A few [HTML classes](http://amsul.github.io/pickadate.js/date.htm#classes) name and property changes.
+- A few [HTML classes](https://amsul.github.io/pickadate.js/date.htm#classes) name and property changes.
 
-- [Formatting rules](http://amsul.github.io/pickadate.js/date.htm#formats) that appear within a word need to be escaped with an exclamation mark (!).
+- [Formatting rules](https://amsul.github.io/pickadate.js/date.htm#formats) that appear within a word need to be escaped with an exclamation mark (!).
 
 
 <br>
-#### Please do read the [docs](http://amsul.github.io/pickadate.js/date.htm#options) and [api](http://amsul.github.io/pickadate.js/api.htm) to see exactly how these new options and methods work.
+#### Please do read the [docs](https://amsul.github.io/pickadate.js/date.htm#options) and [api](https://amsul.github.io/pickadate.js/api.htm) to see exactly how these new options and methods work.
 
 
 

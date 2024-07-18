@@ -33,7 +33,7 @@ $scripts = [];
         <!-- <br>
         <b>Notice</b>:  Undefined variable: subtitulo in <b>/home/storage/f/0a/49/fogodechaoprofis1/public_html/wp-content/themes/fogodechao/page-header-location.php</b> on line <b>6</b><br> -->
         <p class="page-descricao">
-        Avenida das Americas, 4.666 Loja 160 - Barra da Tijuca, Rio de Janeiro 22640-102 |&nbsp; <a href="tel:(21) 3195-2074"> (21) 3195-2074 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="http://maps.google.com?saddr=Current+Location&amp;daddr=-22.9992794,-43.3617102&amp;ll="><i class="fa fa-compass"></i></a>            
+        Avenida das Americas, 4.666 Loja 160 - Barra da Tijuca, Rio de Janeiro 22640-102 |&nbsp; <a href="tel:(21) 3195-2074"> (21) 3195-2074 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="https://maps.google.com?saddr=Current+Location&amp;daddr=-22.9992794,-43.3617102&amp;ll="><i class="fa fa-compass"></i></a>            
         </p>
     </article>
 </header>

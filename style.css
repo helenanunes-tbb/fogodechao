@@ -1,8 +1,8 @@
 /*!
 Theme Name: fogodechao
-Theme URI: http://underscores.me/
+Theme URI: https://underscores.me/
 Author: Underscores.me
-Author URI: http://underscores.me/
+Author URI: https://underscores.me/
 Description: Description
 Version: 1.0.0
 Tested up to: 5.4
@@ -379,7 +379,7 @@ template {
 --------------------------------------------- */
 
 /* Inherit box-sizing to more easily change it's value on a component level.
-@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+@link https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 *,
 *::before,
 *::after {

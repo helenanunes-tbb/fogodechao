@@ -10,13 +10,13 @@
     "input",
     "responsive"
   ],
-  "homepage": "http://amsul.ca/pickadate.js",
+  "homepage": "https://amsul.ca/pickadate.js",
   "bugs": "https://github.com/amsul/pickadate.js/issues",
   "license": "MIT",
   "author": {
     "name": "Amsul",
     "email": "reach@amsul.ca",
-    "url": "http://amsul.ca"
+    "url": "https://amsul.ca"
   },
   "files": [
     "lib",

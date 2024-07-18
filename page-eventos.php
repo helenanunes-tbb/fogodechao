@@ -204,7 +204,7 @@ img.emoji {
                     <article>
                         <div class="depoimento-header">
                             <div class="depoimento-header--image">
-                                <a href="http://www.yelp.com/biz/fogo-de-ch%C3%A3o-s%C3%A3o-paulo-3?hrid=a26WROl3rxgHOLKKbmBRHw&amp;utm_campaign=www_review_share_popup&amp;utm_medium=copy_link&amp;utm_source=(direct)" target="blank">
+                                <a href="https://www.yelp.com/biz/fogo-de-ch%C3%A3o-s%C3%A3o-paulo-3?hrid=a26WROl3rxgHOLKKbmBRHw&amp;utm_campaign=www_review_share_popup&amp;utm_medium=copy_link&amp;utm_source=(direct)" target="blank">
                                 <img src="https://fogodechao.com.br/wp-content/uploads/2019/01/reviews-yelp.png" alt="">
                                 </a>
                             </div>

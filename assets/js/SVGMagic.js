@@ -14,7 +14,7 @@
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 (function( $ ){
     $.fn.svgmagic = function(givenoptions) {	
@@ -80,7 +80,7 @@
                 $.ajax({
                     dataType: "json",
                     method: "POST",
-                    url: "http://svgmagic.bitlabs.nl/converter.php",
+                    url: "https://svgmagic.bitlabs.nl/converter.php",
                     data: data,
                     success: function(response){
                         var i;

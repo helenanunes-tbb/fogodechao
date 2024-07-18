@@ -437,7 +437,7 @@
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="http://instagram.com.br/fogodechaobr" target="_blank">
+                        <a class="nav-link" href="https://instagram.com.br/fogodechaobr" target="_blank">
                         <i class="fa fa-instagram"></i>
                         </a>
                      </li>
@@ -536,7 +536,7 @@
                            </a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="http://instagram.com.br/fogodechaobr" target="_blank">
+                           <a class="nav-link" href="https://www.instagram.com/fogodechaobr" target="_blank">
                            <i class="fa fa-instagram"></i>
                            </a>
                         </li>
@@ -808,7 +808,7 @@
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="http://instagram.com.br/fogodechaobr" target="_blank">
+                                    <a href="https://www.instagram.com/fogodechaobr" target="_blank">
                                     <span class="fa fa-instagram"></span>
                                     </a>
                                  </li>

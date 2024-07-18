@@ -34,7 +34,7 @@ $scripts = [];
         <!-- <br>
         <b>Notice</b>:  Undefined variable: subtitulo in <b>/home/storage/f/0a/49/fogodechaoprofis1/public_html/wp-content/themes/fogodechao/page-header-location.php</b> on line <b>6</b><br> -->
         <p class="page-descricao">
-            Av. Moreira Guimarães, 964, 04074-020 |&nbsp; <a href="tel:(11) 5056-1795"> (11) 5056-1795 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="http://maps.google.com?saddr=Current+Location&amp;daddr=-23.613908,-46.658495&amp;ll="><i class="fa fa-compass"></i></a>            
+            Av. Moreira Guimarães, 964, 04074-020 |&nbsp; <a href="tel:(11) 5056-1795"> (11) 5056-1795 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="https://maps.google.com?saddr=Current+Location&amp;daddr=-23.613908,-46.658495&amp;ll="><i class="fa fa-compass"></i></a>            
         </p>
     </article>
 </header>

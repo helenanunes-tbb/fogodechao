@@ -34,7 +34,7 @@ $scripts = [];
         <!-- <br>
         <b>Notice</b>:  Undefined variable: subtitulo in <b>/home/storage/f/0a/49/fogodechaoprofis1/public_html/wp-content/themes/fogodechao/page-header-location.php</b> on line <b>6</b><br> -->
         <p class="page-descricao">
-            Travessa Casalbuono, 120 - Vila Guiherme, 02089-900 |&nbsp; <a href="tel:(11) 2089-1736"> (11) 2089-1736 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="http://maps.google.com?saddr=Current+Location&amp;daddr=-23.5174492,-46.616834400000016&amp;ll="><i class="fa fa-compass"></i></a>            
+            Travessa Casalbuono, 120 - Vila Guiherme, 02089-900 |&nbsp; <a href="tel:(11) 2089-1736"> (11) 2089-1736 </a>&nbsp;|&nbsp;MAPA <a title="Abrir no Maps" class="fdc-icon-maps" target="__blank" href="https://maps.google.com?saddr=Current+Location&amp;daddr=-23.5174492,-46.616834400000016&amp;ll="><i class="fa fa-compass"></i></a>            
         </p>
     </article>
 </header>

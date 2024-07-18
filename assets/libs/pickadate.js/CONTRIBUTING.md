@@ -17,9 +17,9 @@ If you believe you’ve found a bug within the repository code:
 
 - Search the existing issues to avoid duplicates and to check if it has already been solved.
 - Make sure you’re using the latest build.
-- Isolate the problem and create a [reduced test case](http://css-tricks.com/6263-reduced-test-cases/) - preferably supported with a live example.
+- Isolate the problem and create a [reduced test case](https://css-tricks.com/6263-reduced-test-cases/) - preferably supported with a live example.
 - Try to be as detailed as possible in the report (OS, browser, expected outcome vs actual outcome, etc).
-- Please **do not** use the issue tracker for personal support requests. Instead try [Stack Overflow](http://stackoverflow.com/questions/tagged/pickadate) or the likes with a `pickadate` tag.
+- Please **do not** use the issue tracker for personal support requests. Instead try [Stack Overflow](https://stackoverflow.com/questions/tagged/pickadate) or the likes with a `pickadate` tag.
 
 
 

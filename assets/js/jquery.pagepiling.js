@@ -556,8 +556,8 @@
         /**
          * Detecting mousewheel scrolling
          *
-         * http://blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
-         * http://www.sitepoint.com/html5-javascript-mouse-wheel/
+         * https://blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
+         * https://www.sitepoint.com/html5-javascript-mouse-wheel/
          */
         var prevTime = new Date().getTime();
 
@@ -732,7 +732,7 @@
 
         /*
         * Returns and object with Microsoft pointers (for IE<11 and for IE >= 11)
-        * http://msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
+        * https://msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
         */
         function getMSPointer(){
             var pointer;
@@ -933,7 +933,7 @@
         /**
         * Checks for translate3d support
         * @return boolean
-        * http://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
+        * https://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
         */
         function support3d() {
             var el = document.createElement('p'),
